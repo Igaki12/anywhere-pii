@@ -2,15 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
+/* CSSアニメーションの指定 */
+.Headline1{
+  animation: SlideIn 1.6s;
+}
+
+/* CSSアニメーションの設定 */
+@keyframes SlideIn {
+  0% {
+    opacity: 0;/*初期状態では透明に*/
+    transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* CSSアニメーションの指定 */
+.DownSlideIn{
+  animation: SlideIn 1.0s;
+}
+
+/* CSSアニメーションの設定 */
+@keyframes SlideIn {
+  0% {
+    opacity: 0;/*初期状態では透明に*/
+    transform: translateY(-16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
 
 .App-header {
@@ -26,8 +58,10 @@
 
 .App-link {
   color: #61dafb;
-}
-
+}*/
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +69,18 @@
   to {
     transform: rotate(360deg);
   }
+} 
+.gradient {
+  animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
