@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build-pages": "cross-env PUBLIC_URL=/anywhere-pii BUILD_PATH=/docs react-scripts build"
+    "build-pages": "cross-env PUBLIC_URL=/anywhere-pii BUILD_PATH=./docs react-scripts build"
   },
   "eslintConfig": {
     "extends": [

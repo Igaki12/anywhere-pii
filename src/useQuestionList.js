@@ -8,7 +8,7 @@ import filaria from './img/answer/filaria.png';
 
 export const useQuestionList = () => {
     const appName = 'anywhere-pii'
-    const jpName = '病原体・感染防御'
+    const jpName = '寄生虫学'
     const [questionList, setQuestionList] = useState([
         // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
         {

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/anywhere-pii/static/css/main.6180b9dc.css",
+    "main.js": "/anywhere-pii/static/js/main.d86d10f8.js",
+    "static/media/filaria.png": "/anywhere-pii/static/media/filaria.46c4ff8b4652cea88d94.png",
+    "static/media/mosquitoVectors.png": "/anywhere-pii/static/media/mosquitoVectors.a2cb2231693d830d5fd2.png",
+    "static/media/titleImg.jpg": "/anywhere-pii/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
+    "index.html": "/anywhere-pii/index.html",
+    "main.6180b9dc.css.map": "/anywhere-pii/static/css/main.6180b9dc.css.map",
+    "main.d86d10f8.js.map": "/anywhere-pii/static/js/main.d86d10f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6180b9dc.css",
+    "static/js/main.d86d10f8.js"
+  ]
+}
